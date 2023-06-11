@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/donation10.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.donation-text {
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.donation-text h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.donation-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.anchor-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(255, 0, 128));
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.amount-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.amount-section {
+    display: flex;
+}
+
+.amount {
+    width: 10%;
+    text-align: center;
+}
+
+#first {
+    margin-left: 400px;
+    background-color: aliceblue;
+}
+
+#second {
+    border: 7px solid rgb(255, 0, 0);
+    background-color: rgb(235, 122, 122);
+}
+
+#third {
+    background-color: aliceblue;
+}
+
+#fourth {
+    background-color: aliceblue;
+}
+
+#fifth {
+    background-color: aliceblue;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(212, 241, 249);
+}
+
+hr {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 0%;
+}
+
+footer {
+    background-color: rgb(2, 2, 59);
+    text-align: center;
+}
+
+h4 {
+    color: beige;
+    margin-bottom: 0%;
+}
+
+.donation {
+    display: flex;
+
+}
+
+.footer-h1 {
+    color: palevioletred;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 5px 7px 40px gray;
+    border: 7px;
+    height: 80%;
+}
+
+#food-family {
+    background-color: aquamarine;
+}
+
+#shelter-family {
+    background-color: bisque;
+}
+
+#education-child {
+    background-color: azure;
+}
+
+.suvive {
+    margin-top: 200px;
+    display: flex;
+}
+
+.width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.width img {
+    width: 100%;
+}
+
+.email {
+    margin-left: 450px;
+    margin-right: 500px;
+    background-color: blanchedalmond;
+    border: 50px solid salmon;
+}
